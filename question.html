@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>나에게 딱 맞는 공부법은?</title>
+
+<link rel="stylesheet" type="text/css" href="../static/css/question.css" />
+
+</head>
+<body>
+	<div id="wrap">
+		<div class="content_box">
+			<section class="content1">
+				<div class="con1_img">
+					<h1 id="Q"><span id="QNum"></span>
+					<span id="QTitle"></span></h1>
+					<input type='radio' id="r1" name="radioCheck" value="1"><label for="r1"><span
+						id="Questions1"> </span></label>
+					<p />
+					<input type='radio' id="r2" name="radioCheck" value="2"><label for="r2"><span
+						id="Questions2"> </span></label>
+					<p />
+					<input type='radio' id="r3" name="radioCheck" value="3"><label for="r3"><span
+						id="Questions3"> </span></label>
+					<p />
+					<div id="button">
+						<button id="NextBtn" class="btn btn-default" onclick="Next()">NEXT</button>
+						<button id="ResultBtn" class="btn btn-default" onclick="Result()">RESULT</button>
+						<button id="PrevBtn" class="btn btn-default" onclick="Previous()">PREV</button>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="../static/js/QuestionList.js"></script>
+	<script src="../static/js/question.js"></script>
+</body>
+</html>

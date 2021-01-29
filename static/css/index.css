@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gaegu&family=Indie+Flower&display=swap');
+
+body {
+	background: url(../img/board.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.btn {
+	font-size: 20px;
+	font-family: 'Gaegu', cursive;
+	font-weight: bold;
+	letter-spacing: 4px;
+	padding: 20px 25px;
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+	border: 3px solid rgb(214, 214, 50);
+	background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgb(104, 104, 24) 50%);
+	background-size: 230%;
+	transition: all, 0.5s;
+	position: absolute;
+	margin-top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+	background-position: 100%;
+}
+
+#eng_font {
+	font-family: 'Indie Flower', cursive;
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#korean_font {
+	font-family: 'Gaegu', cursive;
+	font-size: 20px;
+	color:white;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	padding-top: 2%;
+}
+
+#body {
+	transform: rotate(-5deg);
+	margin-right: 2%;
+}

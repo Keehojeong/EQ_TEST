@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gaegu&family=Indie+Flower&display=swap');
+
+body {
+	background: url(../img/board_question.jpg)  no-repeat fixed 50% 50%/100% 100%;
+	color: white;
+	margin-top: 12%;
+	padding-bottom: 10%;
+	text-align: center;
+	font-family: 'Gaegu', cursive;
+	font-size: 20px;
+}
+
+#btn {
+	margin-top: 7%;
+	margin-bottom: 20%;
+}
+#begin {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: yellow;
+	color: black;
+	float: left;
+	margin-left: 1%;
+	border-radius: 10px;
+	padding: 1% 1.5%;
+	margin-left: 45%;
+}
+
+#share {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: yellow;
+	color: black;
+	float: left;
+	margin-left: 1%;
+	border-radius: 10px;
+	padding: 1% 1.5%;
+}
+
+a:link {
+	text-decoration: none; color: black;
+}
+
+a:hover {
+	text-decoration: none; color: rgb(143, 123, 23);
+}
