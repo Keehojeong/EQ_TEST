@@ -1,9 +1,12 @@
+<<<<<<< HEAD
+# EQ_TEST
+=======
 # 심리테스트
 
----
+### 
 
-깃 사용을 위한 테스트 README.md입니다.
+기술 스택
 
-눌렀는데 안 먹 었 어정 깃 연습중 입니다.
-호정 깃 연습중 입니다.
-
+JavaScript
+HTML
+>>>>>>> parent of 0cf1fe7 (Update README.md)
