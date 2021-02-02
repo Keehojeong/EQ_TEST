@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # EQ_TEST
-=======
 # 심리테스트
 
 ### 
@@ -9,4 +7,3 @@
 
 JavaScript
 HTML
->>>>>>> parent of 0cf1fe7 (Update README.md)
